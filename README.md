@@ -1,13 +1,13 @@
 # Riyo Maryadi
 
-### Software Engineer | Frontend systems and product-focused UI
+### Software Engineer | Full-stack web applications
 
-I build accessible, responsive web interfaces with React and JavaScript, focusing on reusable components, clear interactions, and maintainable frontend code.
+I’m a software engineer building full-stack web applications with React and JavaScript, bringing together maintainable implementation, accessible and responsive interfaces, and product-focused experiences.
 
 ## Technical focus
 
 - **Languages:** JavaScript, HTML, CSS
-- **Frontend:** React, component-driven UI, responsive design
+- **Web development:** React, component-driven UI, responsive design
 - **Quality:** Semantic markup, accessible controls, keyboard navigation, reduced-motion support
 - **Tools:** Git, Vite, GitHub Actions
 
@@ -20,4 +20,4 @@ I build accessible, responsive web interfaces with React and JavaScript, focusin
 
 ## Engineering approach
 
-Build for real use. Keep interfaces accessible, code readable, and implementation details intentional.
+Build for real use. Keep applications maintainable, interfaces accessible, and implementation details intentional.

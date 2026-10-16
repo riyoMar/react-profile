@@ -19,7 +19,7 @@ const projects = [
     number: '01',
     name: 'Portfolio Platform',
     type: 'A considered home for selected work',
-    category: 'Frontend',
+    category: 'Software engineering',
     year: '2026',
     image: 'photo-1498050108023-c5249f4df085',
     imageAlt: 'A developer working at a laptop in a bright workspace',
@@ -55,7 +55,7 @@ const projects = [
     number: '04',
     name: 'Daybreak',
     type: 'A calmer daily-planning concept',
-    category: 'Frontend',
+    category: 'Software engineering',
     year: '2024',
     image: 'photo-1470252649378-9c29740c9fa8',
     imageAlt: 'Early morning sunlight falling across an open meadow',
@@ -65,7 +65,7 @@ const projects = [
   },
 ];
 
-const filters = ['All', 'Frontend', 'Web applications'];
+const filters = ['All', 'Software engineering', 'Web applications'];
 
 const socials = [
   { label: 'GitHub', href: 'https://github.com/riyoMar', Icon: Github },
@@ -132,7 +132,7 @@ export default function App() {
   return (
     <>
       <header className="site-header">
-        <a className="wordmark" href="#home" aria-label="Riyo Maryadi home"><span className="wordmark__symbol">rm<span>.</span></span></a>
+        <a className="wordmark" href="#home" aria-label="Riyo Maryadi home"><span className="wordmark__symbol">RM</span></a>
         <nav className="site-nav" aria-label="Main navigation">
           <a href="#work">Selected work</a>
           <a href="#about">About</a>
@@ -149,7 +149,7 @@ export default function App() {
             <div className="availability"><span className="availability__dot" /> Open to software engineering roles</div>
             <p className="hero__eyebrow">Software engineer &middot; React and JavaScript</p>
             <h1 id="hero-title">Software,<br /><span>made human.</span></h1>
-            <p className="hero__description">I’m Riyo Maryadi, a software engineer focused on building clear, accessible interfaces and thoughtful frontend systems.</p>
+            <p className="hero__description">I’m Riyo Maryadi, a software engineer building thoughtful full-stack web applications with clear, accessible interfaces.</p>
             <a className="hero__link" href="#work">Explore selected projects <ArrowDown size={16} /></a>
           </div>
           <div className="hero__visual" role="img" aria-label="JavaScript code sample for Riyo Maryadi's software engineering portfolio">
@@ -164,7 +164,7 @@ export default function App() {
                 <div><span>02</span><code>&nbsp; name: <em>'Riyo Maryadi'</em>,</code></div>
                 <div><span>03</span><code>&nbsp; role: <em>'Software Engineer'</em>,</code></div>
                 <div><span>04</span><code>&nbsp; stack: [<em>'React'</em>, <em>'JavaScript'</em>],</code></div>
-                <div><span>05</span><code>&nbsp; focus: <em>'Frontend systems'</em>,</code></div>
+                <div><span>05</span><code>&nbsp; focus: <em>'Full-stack applications'</em>,</code></div>
                 <div><span>06</span><code>{'}'};</code></div>
                 <div><span>07</span><code><b>export default</b> riyo;</code></div>
               </div>
@@ -197,7 +197,7 @@ export default function App() {
         <section className="about-section" id="about" aria-labelledby="about-heading">
           <div className="about__aside"><Code2 className="about__asterisk" size={23} aria-hidden="true" /><p className="section-kicker">A little about me</p></div>
           <div className="about__body">
-            <h2 id="about-heading">Frontend systems.<br /><span>Thoughtfully built.</span></h2>
+            <h2 id="about-heading">Software engineering.<br /><span>Thoughtfully built.</span></h2>
             <p>I build component-driven interfaces with React and JavaScript, using semantic HTML and accessible interactions as a foundation.</p>
             <p>I focus on reusable UI, responsive behavior, and clear implementation details that make software easier to use and maintain.</p>
             <a className="about__link" href="#contact">Get in touch <ArrowRight size={16} /></a>

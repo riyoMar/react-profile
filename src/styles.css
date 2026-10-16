@@ -93,7 +93,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--green); outline
 }
 .wordmark { display: inline-flex; align-items: center; height: 40px; }
 .wordmark__symbol { font-family: var(--display); font-weight: 800; font-size: 31px; line-height: 1; }
-.wordmark__symbol span, .heading-period { color: var(--orange); }
+.heading-period { color: var(--orange); }
 .site-nav { display: flex; align-items: center; gap: 27px; color: var(--copy); font-size: 13px; }
 .site-nav a:not(.site-nav__contact):hover, .back-to-top:hover { color: var(--green); }
 .back-to-top { display: inline-flex; align-items: center; gap: 5px; }
