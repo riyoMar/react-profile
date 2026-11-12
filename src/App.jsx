@@ -69,7 +69,7 @@ const filters = ['All', 'Software engineering', 'Web applications'];
 
 const socials = [
   { label: 'GitHub', href: 'https://github.com/riyoMar', Icon: Github },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com', Icon: Linkedin },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/riyo-maryadi/', Icon: Linkedin },
   { label: 'Email', href: 'mailto:riyo.here11@gmail.com', Icon: Mail },
 ];
 
